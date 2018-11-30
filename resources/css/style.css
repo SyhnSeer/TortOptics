@@ -128,6 +128,10 @@ nav p {
   color: white;
   background-color: cadetblue;
   width: 10rem;
+  padding-top: 0.5rem;
+  padding-bottom: 0.5rem;
+  padding-left: 1.25rem;
+  margin-bottom: 1rem;
 }
 
 .philosophy {
@@ -136,4 +140,21 @@ nav p {
 
 .appointments {
   margin-left: 2.5%;
+}
+
+footer {
+  background-color: azure;
+}
+
+footer img {
+  padding-top: 4rem;
+  padding-bottom: 4rem;
+  padding-left: 4rem;
+  padding-right: 1rem;
+  height: 1rem;
+}
+
+footer .container {
+  display: flex;
+  align-items: center;
 }
