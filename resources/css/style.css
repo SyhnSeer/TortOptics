@@ -40,6 +40,10 @@ nav {
   align-items: center;
 }
 
+.phone-nav {
+  display: none;
+}
+
 .head img {
   height: 1.5rem;
   margin-left: 2rem;
@@ -157,4 +161,98 @@ footer img {
 footer .container {
   display: flex;
   align-items: center;
+}
+
+@media only screen and (max-width: 1024px) {
+  .container {
+    width: 100%;
+  }
+  header {
+    height: 22rem;
+    padding-top: 0;
+  }
+  .motto {
+  margin-top: 5rem;
+  margin-right: 2rem;
+  }
+  .motto h1 {
+    font-size: 1.3rem;
+    padding: 0.75rem 4rem;
+  }
+}
+
+@media only screen and (max-width: 480px) {
+  header {
+    background-position: 20%;
+  }
+  .head p {
+    display: none;
+  }
+  nav {
+    display: none;
+  }
+  .phone-nav {
+    display: flex;
+    align-items: center;
+  }
+  .phone-nav p {
+    display: flex;
+    align-items: center;
+    font-size: 1rem;
+    magin-top: 1rem;
+    margin-bottom: 1rem;
+    margin-right: 2rem;
+    color: white;
+  }
+  .motto {
+    justify-content: center;
+    margin-top: 9rem;
+    margin-right: 0;
+    margin-left: 0;
+  }
+  .motto h1 {
+    font-size: 1rem;
+    padding-top: 1rem:
+    padding-bottom: 1rem;
+  }
+  .services {
+    flex-direction: column;
+  }
+  .exams {
+    margin: auto;
+  }
+  .delivery {
+    margin-top: 1.54rem;
+    margin-bottom: 3.77rem;
+    margin-right: auto;
+    margin-left: auto;
+  }
+  .info {
+    flex-direction: column;
+    align-items: center;
+  }
+  .info .column {
+    width: 100%;
+  }
+  .info h2 {
+    width: 100%;
+  }
+  .info p {
+    font-size: 0.77rem;
+    margin-top: 1rem;
+    margin-bottom: 4rem;
+  }
+  footer {
+    display: flex;
+    justify-content: center;
+  }
+  footer img {
+    padding-left: 0;
+    padding-right: 0;
+    margin-left: auto;
+    margin-right: auto;
+  }
+  footer p {
+    display: none;
+  }
 }
